@@ -1,0 +1,60 @@
+.header{
+    width: 100%;
+    padding: 1.2rem 6.5rem;
+
+    .header__main{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .header__main__logo{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 36px;
+        }
+
+        .navigation-menu{
+            display: flex;
+            align-items: center;
+            .navigation-menu__list{
+                display: flex;
+                justify-content: center;
+      
+                .list__item{
+                   text-align: center;
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 21px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                    margin-right: 4rem;
+                }
+
+                .list__item_focus{
+                     font-weight: 500; 
+                 }
+              
+            }
+        }
+        .header__main__button-join{
+            width: 9rem;
+            height: 3rem;
+            border-radius: 3rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: 0em;
+
+
+        }
+    }
+}
