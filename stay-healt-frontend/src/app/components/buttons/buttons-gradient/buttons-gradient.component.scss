@@ -1,0 +1,25 @@
+.buttons-gradient{
+    width: 9rem;
+    height: 3rem;
+    border-radius: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    transition: 1s;
+    
+   
+}
+
+.buttons-gradient-focus:hover{
+    background: linear-gradient(97.1deg, #4e63da 11.99%, #408fd8 96.6%);
+    transition: 0.5s;
+ 
+    width: 10rem;
+}

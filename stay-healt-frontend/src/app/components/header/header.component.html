@@ -1,3 +1,4 @@
+
 <header class="header">
     <div class="header__main">
         <div class="header__main__logo">
@@ -6,15 +7,16 @@
 
         <nav class="navigation-menu">
             <ul class="navigation-menu__list">
-                <li class="list__item list__item_focus">Home</li>
-                <li class="list__item">Programs</li>
-                <li class="list__item">Nutritions</li>
-                <li class="list__item">Pricing</li>
-                <li class="list__item">About</li>
+                <li class="list__item list__item_focus list__item_hover">Home</li>
+                <li class="list__item list__item_hover">Programs</li>
+                <li class="list__item list__item_hover">Nutritions</li>
+                <li class="list__item list__item_hover">Pricing</li>
+                <li class="list__item list__item_hover">About</li>
             </ul>
         </nav>
-        <button class="header__main__button-join">
-            Join Now
-        </button>
+        
+        <app-buttons-gradient (click)="openModalFnc()">Join now</app-buttons-gradient>
+        <app-modal [openModal]="openModal"><app-buttons-gradient (click)="closeModalFnc()">Close</app-buttons-gradient></app-modal>
     </div>
 </header>
+

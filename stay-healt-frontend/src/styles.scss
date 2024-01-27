@@ -1,5 +1,15 @@
 
+$backgroundColor:#161D2F;
+$standartTextColor:#ffffff;
 
+
+body{
+    margin: 0 auto;
+    max-width: 1270px;
+    color:$standartTextColor;
+    background-color: $backgroundColor;
+    
+}
 
 /* You can add global styles to this file, and also import other style files */
 /* Reset and base styles  */
